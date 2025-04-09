@@ -1,7 +1,7 @@
 "use client";
 
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../components/redux/contactsSlice.js";
+import { deleteContact } from "../../redux/contactsSlice";
 import styles from "./Contact.module.css";
 
 const Contact = ({ contact }) => {
